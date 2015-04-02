@@ -1,0 +1,36 @@
+<html>
+	<head>
+		<script src="http://code.jquery.com/jquery-2.1.0.js"></script>
+		<script src="video.js"></script>
+	</head>
+	<style>
+		#videoElement {
+			border: 2px solid red;
+		}
+		
+		#video {
+			width: 200px;
+			height: 150px;
+			border: 1px solid black;
+			margin: 5px;
+			padding: 20px;
+		}
+		
+		.button {
+			height: 20px;
+			width: 20px;
+			background: red;
+		}
+	</style>
+	<body>	
+		<video id="videoElement" controls>
+			<source src="movie.ogv" type="video/ogg">
+		</video>
+		<div class="button" id="play" onclick="videoapi.play()">
+		</div>
+		
+		<div id="video">
+		</div>
+	</body>
+</html>
+		

@@ -1,0 +1,64 @@
+
+/* elementName fromJSON elementOccupation*/
+
+p {
+	font-family: 'Over the Rainbow', cursive;
+	color: black;
+	font-size: 1.2em;
+}
+
+p.elementName {
+	color: #ffaabb;
+}
+
+#hook p.elementName {
+	color: yellow;
+}
+
+
+body {
+	background: white;
+}
+
+@media(min-width:500px) {
+	body {
+		background: green;
+		
+	}
+	
+	#textdata p{
+		column-count: 1;
+		-moz-column-count:1; /* Firefox */
+		-webkit-column-count:1; /* Safari and Chrome */
+	}
+}
+
+
+@media(min-width:600px) {
+	body {
+		background: yellow;
+	}
+	
+	#textdata p {
+		column-count: 2;
+		-moz-column-count:2; /* Firefox */
+		-webkit-column-count:2; /* Safari and Chrome */
+	}
+}
+
+@media(min-width:800px) {
+	body {
+		background: blue;
+	}
+	
+	#textdata p{
+		column-count: 3;
+		-moz-column-count:3; /* Firefox */
+		-webkit-column-count:3; /* Safari and Chrome */
+	}
+}
+
+
+
+
+

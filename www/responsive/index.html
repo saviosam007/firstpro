@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+	<head>
+	<script src="http://code.jquery.com/jquery-2.1.0.js"></script>
+	<script src="iitajaxCSS.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href='http://fonts.googleapis.com/css?family=Over+the+Rainbow' rel='stylesheet' type='text/css'>
+	</head>
+	<body>	
+		<p>Empty Page</p>
+		<div id="hook"></div>
+		</div>
+		
+		<div id="textdata">
+		<p>
+		ITMD 465/565 Assignment 2 “TVGuide” 
+Spring 2014 – 12% course grade
+Objectives
+•	To demonstrate ability with introductory jQuery Selectors and Loops
+•	To understand the application of parsing remote data retrieved using AJAX
+•	To demonstrate the application of CSS including CSS3 animations and transitions
+•	To demonstrate the use of including multiple files into a single page
+Instructions
+•	You are to modify the included files to provide the following functionality:
+TVGuide.com (http://www.tvguide.com/) is looking to create a new application for the Playstation4 and XboxOne systems for users to view information about upcoming TV episodes. This application will be built using JavaScript – and must be very responsive, so data will be loaded dynamically.
+You have been given a page without style or javascript functions – you will need to write css, and javascript to download the show and episode json data and place that data into the respective slots on the html page. This downloading function should be triggered by the clicking of the “load data” button – and triggered only once.
+The upcoming episodes should be featured on the front of the page, taking up 80% of the page space, with the remaining 20% taken up by a vertically scrolling list of other interesting shows.*1 The episodes should should flow in a grid pattern in the center of the page, and the shows should be a simple list. You are free to design your own layout, but it should roughly follow these guidelines.
+The shows (on the right of the page in a vertical list) should display the title and description of the show – with a button or other place to click and display more information about the show (use other data fields from the JSON).
+The episodes (in the center of the page in a flowing list) should display (at least) the episode name, and the name of the show it comes from and which season the episode is from.
+Demonstrate your knowledge of CSS3 by applying CSS3 principles in your CSS – cap this off with a subtle repeating infinite animation of the site logo that animates at least two css properties.*2
+Finally as a test of your selector skills – there should be a button created that when clicked changes the color of all the “seasons” (in the episode listing) from whatever color they were previously to red (matching the TVGuide logo) 
+*1 Note: Undergraduates do not have to download or display the “Episodes” list – their submission should just be the “Shows” listing – centered on the page.
+*2 Note: Undergraduates only need to animate one property
+Steps
+•	Understand the structure of the data files
+•	Create all the necessary links to outside files for javascript and css in the assignment page
+•	Create functions to download the data files using jQuery AJAX
+•	Parse the data and turn it into information to be placed on screen
+•	Write CSS3 for the data and logo
+•	Write a jQuery selector and button to select all “season” data points and change the color appropriately
+
+Graded
+To obtain maximum (A) grades:
+	Load the episode and show JSON data in two separate JSON AJAX requests
+	Apply CSS3 transitions to the data so that it doesn’t just ‘pop’ onto the page after it loads
+Use namespacing in your javascript work
+Make minimal changes to the HTML of the page – generate most elements via javascript
+Submission
+Put all of your code, a readme file explaining your submission, and any additional files you create into a zip file and submit that on blackboard by the due date –  Monday 11:59PM Chicago Time - March 3rd 2014.
+Late Policy
+You will receive a 10% assignment grade reduction per 24 hours your submission is late, starting from 1 minute after the deadline. Last minute submissions lead to last minute problems – start and submit early!
+Data
+There is an included JSON data file with the assignment that is quite large. This data has been sourced from trakt.tv – If you are interested in this service find more information here - http://trakt.tv/api-docs/search-shows
+Useful Tools
+You may find the following tools useful to complete this assignment:
+•	JSON Viewer:
+o	http://www.jsoneditoronline.org/
+•	JQuery Documentation
+o	http://api.jquery.com/
+
+</p>
+		</div>
+	</body>
+</html>
